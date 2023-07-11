@@ -38,6 +38,14 @@ A: Yes you can, but only say who the original creator is ([me](https://github.co
 
 A: I think I will, personally I do this as a hobby and only when I want and have the motivation to do it, and right now I don't really know what my next project will be, maybe I will return to another project, who knows.
 
+#### Q: Why is the gui not showing? And why do I have a chest minecart in the head when I look to a fletching table?
+
+A: Remember to also download the resourcepack to make it appear that it is not broken, go to "Versions" > Click on the version you are using > Download the resourcepack.
+
+#### Q: Does this datapack work on older versions?
+
+A: Maybe, personally I haven't tested in older versions than 1.19 but I think it should work all the way down to 1.13. Just download the 1.19 version with the resourcepack and I think it should work, just change inside the pack.mcmeta of both the datapack and resourcepack the "[pack_format](https://minecraft.fandom.com/wiki/Pack_format)" value to the desired one (it may not work or at least not as intendet).
+
 ## Bug Report
 
 If you have found any bugs, please reach out to me at [my discord server](https://discord.gg/bGd2QyqjCg).
