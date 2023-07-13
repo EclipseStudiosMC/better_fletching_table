@@ -13,15 +13,15 @@ This datapack adds the ability to craft arrows, tipped arrows and spectral arrow
 
 <h3>In more detail:</h3>
 <details>
-When you craft an arrow, instead of the usual 4 arrows you get you now get 6. When crafting tipped arrows keep in mind the following:
-When using a normal potion you can craft up to 16 tipped arrows, using a splash potion instead you can craft up to 32 tipped arrows and finally using a lingering potion you can craft up to 64 tipped arrows. Also keep in mind that the potion will be consumed entirely although you didn't crafted the max amount that potion could craft.
-Also, you can craft 1 tipped arrows using a normal arrow and a glowstone dust.
+When you craft an arrow, instead of the usual 4 arrows you get, using the table you now get 6. When crafting tipped arrows keep in mind the following:
+When using a normal potion you can craft up to 16 tipped arrows, using a splash potion instead you can craft up to 32 tipped arrows, and finally using a lingering potion you can craft up to 64 tipped arrows. Also keep in mind that the potion will be consumed entirely whether you did or didn't crafted the max amount that potion could craft.
+Also, you can craft 1 spectral arrow using a normal arrow and a glowstone dust.
 And lastly, when shift clicking to the result it will craft as much as it can with the items you gave it.
 </details>
 
 ## Authors
 
-- [@ElGeroIngles](https://github.com/ElGeroIngles)
+- [@ElGeroIngles](https://modrinth.com/user/ElGeroIngles)
 
 
 ## FAQ
