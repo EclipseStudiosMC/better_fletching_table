@@ -40,7 +40,7 @@ A: I think I will, personally I do this as a hobby and only when I want and have
 
 #### Q: Why is the gui not showing? And why do I have a chest minecart in the head when I look to a fletching table?
 
-A: Remember to also download the resourcepack to make it appear that it is not broken, go to "Versions" > Click on the version you are using > Download the resourcepack.
+A: Remember to also download the resourcepack to make it appear that it is not broken, go to "[Versions](https://modrinth.com/datapack/bft/versions)" > Click on the version you are using > Download the resourcepack.
 
 #### Q: Does this datapack work on older versions?
 
