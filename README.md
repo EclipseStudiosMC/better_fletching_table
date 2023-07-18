@@ -44,7 +44,7 @@ A: Remember to also download the resourcepack to make it appear that it is not b
 
 #### Q: Does this datapack work on older versions?
 
-A: Maybe, personally I haven't tested in older versions than 1.19 but I think it should work all the way down to 1.13. Just download the 1.19 version with the resourcepack and I think it should work, just change inside the pack.mcmeta of both the datapack and resourcepack the "[pack_format](https://minecraft.fandom.com/wiki/Pack_format)" value to the desired one (it may not work or at least not as intendet).
+A: Maybe, personally I haven't tested in older versions than 1.19 but I think it should work all the way down to 1.14. Just download the 1.19 version with the resourcepack and I think it should work, just change inside the pack.mcmeta of both the datapack and resourcepack the "[pack_format](https://minecraft.fandom.com/wiki/Pack_format)" value to the desired one (it may not work or at least not as intendet).
 
 ## Bug Report
 
