@@ -1,0 +1,17 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "opengui": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:chest_minecart",
+                    "nbt": "{Tags:[sid,menu,bft]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bft:fletchtable/menu/reset_change"
+    }
+}

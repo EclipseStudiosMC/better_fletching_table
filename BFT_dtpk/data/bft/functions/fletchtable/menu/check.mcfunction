@@ -1,0 +1,25 @@
+# Check:
+execute if entity @s[nbt={Items:[{Slot:0b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:1b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:2b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:4b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:5b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:6b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:7b}]}] run function bft:fletchtable/menu/give
+execute unless entity @s[nbt={Items:[{Slot:8b,id:"minecraft:stick",tag:{bft:1b,menu_item:1b,button_item:1b}}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:9b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:10b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:12b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:13b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:14b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt=!{Items:[{Slot:15b,id:"minecraft:arrow",tag:{bft:1b}}]},nbt={Items:[{Slot:15b}]},nbt=!{Items:[{Slot:15b,id:"minecraft:tipped_arrow",tag:{bft:1b}}]},nbt=!{Items:[{Slot:15b,id:"minecraft:spectral_arrow",tag:{bft:1b}}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:16b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:17b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:18b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:20b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:21b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:22b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:23b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:24b}]}] run function bft:fletchtable/menu/give
+execute if entity @s[nbt={Items:[{Slot:25b}]}] run function bft:fletchtable/menu/give
+execute unless entity @s[nbt={Items:[{Slot:26b,id:"minecraft:stick",tag:{bft:1b,menu_item:1b,gui_item:1b}}]}] run function bft:fletchtable/menu/give
