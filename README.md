@@ -1,4 +1,3 @@
-
 # Better Fletching Tables (BFT)
 
 Better Fletching Tables tries to improve the current fletching table that minecraft has, which does literally nothing.
