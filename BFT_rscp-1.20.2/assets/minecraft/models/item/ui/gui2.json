@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/ui/underlay",
+  "textures": {
+    "texture": "custom/ui/gui2"
+  }
+}

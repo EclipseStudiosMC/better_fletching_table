@@ -1,0 +1,45 @@
+{
+        "parent": "minecraft:item/handheld",
+        "textures": {
+          "layer0": "minecraft:item/stick"
+        },
+        "overrides": [
+          {
+            "predicate": {
+              "custom_model_data": 42211
+            },
+            "model": "minecraft:item/ui/gui"
+          },
+          {
+            "predicate": {
+              "custom_model_data": 42212
+            },
+            "model": "minecraft:item/ui/gui2"
+          },
+          {
+            "predicate": {
+              "custom_model_data": 42213
+            },
+            "model": "minecraft:item/ui/gui3"
+          },
+          {
+            "predicate": {
+              "custom_model_data": 42214
+            },
+            "model": "minecraft:item/ui/gui4"
+          },
+          {
+            "predicate": {
+              "custom_model_data": 42215
+            },
+            "model": "minecraft:custom/cross"
+          },
+          {
+            "predicate": {
+              "custom_model_data": 42216
+            },
+            "model": "minecraft:item/ui/gui5"
+          }
+        ]
+      }
+      
