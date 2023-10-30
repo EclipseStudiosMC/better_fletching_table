@@ -1,3 +1,4 @@
+
 # Better Fletching Tables (BFT)
 
 Better Fletching Tables tries to improve the current fletching table that minecraft has, which does literally nothing.
@@ -50,7 +51,7 @@ A: Yes it is, atleast the 1.20.2+ version of it. From that version it follows th
 
 #### Q: How can I make it compatible to work with other blocks?
 
-A: First, go the the datapack inside `"data/bft/tags/blocks/ft.json"` and add the id of the block there. Every block that is in that list will be treated as a Fletching Table, even blocks added by mods.
+A: First, go the the datapack inside `"data/bft/tags/blocks/ft.json"` and add the id of the block there. Every block that is in that list will be treated as a Fletching Table, even blocks added by mods. Then in-game type `/reload` and it should be working perfectly.
 
 ## Bug Report/Suggestions
 If you have found any bugs or have any suggestion, please reach out to us at [our discord server](https://discord.gg/X2NTE7hkq8).
