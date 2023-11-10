@@ -43,7 +43,7 @@ A: Remember to also download the resourcepack to make it appear that it is not b
 
 #### Q: Does this datapack work on older/newer versions?
 
-A: Maybe, personally we haven't tested in older versions than 1.19 but I think it should work all the way down to 1.14. Just download the 1.19 version (if you want to downgrade it) or the lastest version (if you want to update it) with the resourcepack and I think it should work, just change inside the `pack.mcmeta` of both the datapack and resourcepack the "[pack_format](https://minecraft.fandom.com/wiki/Pack_format)" value to the desired one (it may not work or at least not as intended). Also, for some reason some versions change some minor things in the resourcepacks that makes the gui of the Fletching Table a bit smaller/lager, if that happens change inside the resourcepack `"minecraft/models/item/ui/underlay.json"` the last value of `"scale"` to one a bit bigger or smaller.
+A: Maybe, personally we haven't tested in older versions than 1.19 but I think it should work all the way down to 1.14. Just download the lastest version with the resourcepack and I think it should work, just change inside the `pack.mcmeta` of both the datapack and resourcepack the "[pack_format](https://minecraft.fandom.com/wiki/Pack_format)" value to the desired one (it may not work or at least not as intended). Also, for some reason some versions change some minor things in the resourcepacks that makes the gui of the Fletching Table a bit smaller/lager, if that happens change inside the resourcepack `"minecraft/models/item/ui/underlay.json"` the last value of `"scale"` to one a bit bigger or smaller.
 
 #### Q: Is this datapack compatible with other datapacks?
 
