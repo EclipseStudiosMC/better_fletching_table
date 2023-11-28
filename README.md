@@ -47,7 +47,7 @@ A: Maybe, personally we haven't tested in older versions than 1.19 but I think i
 
 #### Q: Is this datapack compatible with other datapacks?
 
-A: Yes it is, atleast the 1.20.2+ version of it. From that version it follows the [Smithed](https://wiki.smithed.dev/conventions/) conventions to ensure datapack and resourcepack compatibility (it is 99.99% compatible, not 100% for some very minor things but it should be fine).
+A: Yes it is, this datapack follows the [Smithed](https://wiki.smithed.dev/conventions/) conventions to ensure datapack and resourcepack compatibility (it is 99.99% compatible, not 100% for some very minor things but it should be fine).
 
 #### Q: How can I make it compatible to work with other blocks?
 
