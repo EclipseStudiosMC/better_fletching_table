@@ -5,9 +5,7 @@ Better Fletching Tables tries to improve the current fletching table that minecr
 This datapack adds the ability to craft arrows, tipped arrows and spectral arrows in a better way than the game actually does.
 
 ## Video
-<iframe
-src="https://www.youtube.com/embed/052vD9fScsk">
-</iframe>
+[![BFT](https://img.youtube.com/vi/052vD9fScsk/0.jpg)](https://www.youtube.com/watch?v=052vD9fScsk)
 
 ## Features
 
