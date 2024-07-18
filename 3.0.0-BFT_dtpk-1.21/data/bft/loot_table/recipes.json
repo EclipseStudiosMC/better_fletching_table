@@ -1,0 +1,191 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{bft:[{menu:1b},{recipe:1b}]}"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 26201
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": " "
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.3": {
+                          "items": "minecraft:flint"
+                        },
+                        "container.11": {
+                          "items": "minecraft:stick"
+                        },
+                        "container.19": {
+                          "items": "minecraft:feather"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.3": {
+                          "items": "minecraft:glowstone_dust"
+                        },
+                        "container.11": {
+                          "items": "minecraft:arrow"
+                        },
+                        "container.19": {
+                          "items": "minecraft:air"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.3": {
+                          "items": "#bft:potions"
+                        },
+                        "container.11": {
+                          "items": "minecraft:arrow"
+                        },
+                        "container.19": {
+                          "items": "minecraft:air"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{bft:[{menu:1b},{recipe:1b},{real_recipe:1b}]}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "bft.arrows"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "container.3": {
+                    "items": "#bft:potions"
+                  },
+                  "container.11": {
+                    "items": "minecraft:arrow"
+                  },
+                  "container.19": {
+                    "items": "minecraft:air"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spectral_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{bft:[{menu:1b},{recipe:1b},{real_recipe:1b}]}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "container.3": {
+                    "items": "minecraft:glowstone_dust"
+                  },
+                  "container.11": {
+                    "items": "minecraft:arrow"
+                  },
+                  "container.19": {
+                    "items": "minecraft:air"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{bft:[{menu:1b},{recipe:1b},{real_recipe:1b}]}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "container.3": {
+                    "items": "minecraft:flint"
+                  },
+                  "container.11": {
+                    "items": "minecraft:stick"
+                  },
+                  "container.19": {
+                    "items": "minecraft:feather"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.0": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.1": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.2": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.4": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.5": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.6": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.7": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.8": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b},{pickup:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.9": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.10": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.12": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.13": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.14": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:any_of",
+        "terms": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "container.15": {
+                  "predicates": {
+                    "minecraft:custom_data": "{bft:[{menu:1b},{recipe:1b},{real_recipe:1b}]}"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "container.15": {
+                  "predicates": {
+                    "minecraft:custom_data": "{bft:[{menu:1b},{recipe:1b}]}"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.16": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.17": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.18": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.20": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.21": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.22": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.23": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.24": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.25": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b}]}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.26": {
+              "predicates": {
+                "minecraft:custom_data": "{bft:[{menu:1b},{help:1b}]}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

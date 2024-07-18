@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "container.3": {
+          "items": "#bft:potions"
+        },
+        "container.11": {
+          "items": "minecraft:arrow"
+        }
+      }
+    }
+  }
+  

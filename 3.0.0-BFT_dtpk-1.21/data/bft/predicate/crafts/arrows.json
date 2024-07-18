@@ -1,0 +1,18 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "container.3": {
+          "items": "minecraft:flint"
+        },
+        "container.11": {
+          "items": "minecraft:stick"
+        },
+        "container.19": {
+          "items": "minecraft:feather"
+        }
+      }
+    }
+  }
+  

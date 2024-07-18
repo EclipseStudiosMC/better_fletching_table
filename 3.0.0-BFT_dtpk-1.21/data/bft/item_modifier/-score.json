@@ -1,0 +1,15 @@
+[
+  {
+    "function": "minecraft:set_count",
+    "count": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:context",
+        "target": "this"
+      },
+      "score": "bft.arrows",
+      "scale": -1
+    },
+    "add": true
+  }
+]

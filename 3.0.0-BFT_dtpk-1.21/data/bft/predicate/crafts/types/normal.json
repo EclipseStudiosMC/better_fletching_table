@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "player.cursor": {
+          "predicates": {
+            "minecraft:custom_data": "{bft:[{menu:1b},{recipe:1b},{real_recipe:1b}]}"
+          }
+        }
+      }
+    }
+  }
+  

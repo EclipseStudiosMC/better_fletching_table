@@ -1,0 +1,21 @@
+{
+    "id": "bft",
+    "pack": {
+      "pack_format": 48,
+      "supported_formats": [
+        48,
+        48
+      ],
+      "description": [
+        {
+          "text": "Better Fletching Tables - ",
+          "color": "gold"
+        },
+        {
+          "text": "Eclipse Studios ☽",
+          "color": "blue"
+        }
+      ]
+    }
+  }
+  
