@@ -1,0 +1,6 @@
+{
+    "parent": "bft:item/tip",
+	"textures": {
+		"texture": "bft:item/gui/tip/2"
+	}
+}

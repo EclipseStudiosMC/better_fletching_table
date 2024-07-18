@@ -1,0 +1,63 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/stick"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 26201
+        },
+        "model": "bft:gui/gui"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 26202
+        },
+        "model": "bft:gui/help"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 26203
+        },
+        "model": "bft:gui/cross"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 26204
+        },
+        "model": "bft:gui/tip/1"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 26205
+        },
+        "model": "bft:gui/tip/2"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 26206
+        },
+        "model": "bft:gui/tip/3"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 26207
+        },
+        "model": "bft:gui/tip/4"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 26208
+        },
+        "model": "bft:gui/tip/5"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 26209
+        },
+        "model": "minecraft:block/minecart/normal"
+      }
+    ]
+  }
+  

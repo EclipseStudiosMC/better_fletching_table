@@ -1,0 +1,6 @@
+  {
+    "parent": "bft:item/menu",
+	"textures": {
+		"layer0": "bft:item/gui/gui"
+	}
+}
