@@ -23,14 +23,14 @@ This datapack adds the ability to craft arrows, tipped arrows and spectral arrow
   </summary>
   <p>
     
-- Better way to craft arrows
-- Better way to craft tipped arrows
-- Better way to craft spectral arrows
-- Multiplayer compatibility
+- New way to craft arrows.
+- New way to craft tipped arrows.
+- New way to craft spectral arrows.
+- New crafting station.
 
 When you craft an arrow, instead of the usual 4 arrows you get, using the table you now get 6. When crafting tipped arrows keep in mind the following:
 When using a normal potion you can craft up to 16 tipped arrows, using a splash potion instead you can craft up to 32 tipped arrows, and finally using a lingering potion you can craft up to 64 tipped arrows. Also keep in mind that the potion will be consumed entirely whether you did or didn't crafted the max amount that potion could craft.
-Also, you can craft 1 spectral arrow using a normal arrow and a glowstone dust.
+Also, you can craft 2 spectral arrows using a normal arrow and a glowstone dust.
 And lastly, when shift clicking to the result it will craft as much as it can with the items you gave it.
 
   </p>
@@ -60,11 +60,11 @@ A: Remember to also download the resourcepack to make it appear that it is not b
 
 #### Q: Does this datapack work on older/newer versions?
 
-A: Maybe, personally we haven't tested in older versions than 1.19 but I think it should work all the way down to 1.14. Just download the lastest version with the resourcepack and I think it should work, just change inside the `pack.mcmeta` of both the datapack and resourcepack the "[pack_format](https://minecraft.wiki/w/Pack_format)" value to the desired one (it may not work or at least not as intended). Also, for some reason some versions change some minor things in the resourcepacks that makes the gui of the Fletching Table a bit smaller/lager, if that happens change inside the resourcepack `"minecraft/models/item/ui/underlay.json"` the last value of `"scale"` to one a bit bigger or smaller.
+A: This may be a controversial answer, yes but also no. If you want to use version 3.0.0 and later of this datapack/mod you can only use it in 1.20.5+, this is due to the rewrite from scratch I did in order to compensate the bad permormance previous versions had which uses commands added in 1.20.5+ (and also uses the new item component format), that doesn't mean that their are bad and that you shouldn't use them, just that they may cause lag and also maybe drop the server's tps. If for whatever reason you want to downgrade it you COULD do so until 1.20.3 (I think), previous versions would be a nightmare to downgrade it. If for whatever reason you want to use it in a newer version and the official update hasn't happened just download the lastest version and change inside the `pack.mcmeta` of the datapack the "[pack_format](https://minecraft.wiki/w/Pack_format)" value to the desired one (it may not work or at least not as intended).
 
 #### Q: Is this datapack compatible with other datapacks?
 
-A: Yes it is, this datapack follows the [Smithed](https://wiki.smithed.dev/conventions/) conventions to ensure datapack and resourcepack compatibility (it is 99.99% compatible, not 100% for some very minor things but it should be fine).
+A: Yes it is, this datapack follows the [Smithed](https://wiki.smithed.dev/conventions/) conventions to ensure datapack and resourcepack compatibility.
 
   </p>
 </details>
@@ -83,10 +83,11 @@ The file should look like this:
 
 ```json
 {
-  "values": [
-    "minecraft:fletching_table"
-  ]
-}
+    "values": [
+      "minecraft:fletching_table"
+    ],
+    "replace": false
+  }
 ```
 
 To add another block just add a comma and add the id of the block (the id of a block is the one you use when you `/give` the block to you), for example, let's make it compatible with stones:
@@ -95,7 +96,8 @@ To add another block just add a comma and add the id of the block (the id of a b
   "values": [
     "minecraft:fletching_table",
     "minecraft:stone"
-  ]
+  ],
+    "replace": false
 }
 ```
 Now the datapack'll recognize as fletching tables the fletching table and stone.
@@ -110,6 +112,32 @@ Now the datapack'll recognize as fletching tables the fletching table and stone.
     
 - Team: [Eclipse Studios](https://discord.gg/X2NTE7hkq8)
     - Main dev: [@ElGeroIngles](https://modrinth.com/user/ElGeroIngles)
+
+  </p>
+</details>
+
+<details>
+  <summary>
+    ❤️ Credits
+  </summary>
+  <p>
+    
+Since 3.0.0, this datapack makes use of the following libraries/tricks:
+
+- [Aeldrion](https://github.com/Aeldrion)'s [Iris](https://github.com/Aeldrion/Iris) raycasting library.
+- [Evtema3](https://github.com/Evtema3)'s shader method for hiding nametags ([here](https://discord.com/channels/154777837382008833/157097006500806656/1181814993537220658))
+- [AmberWat](https://github.com/AmberWat)'s [Negative Space Font](https://github.com/AmberWat/NegativeSpaceFont) used for hiding the nametags in [Evtema3](https://github.com/Evtema3)'s shader.
+
+  </p>
+</details>
+
+<details>
+  <summary>
+    🗑️ Unistall
+  </summary>
+  <p>
+    
+To unistall the datapack run `/function bft:cmd/unistall` before the datapack and resourcepack, that will remove all scoreboards and more stuff that the datapack uses (v3.0.0+ only).
 
   </p>
 </details>
@@ -135,4 +163,3 @@ If you have found any bugs or have any suggestion, please reach out to us at [ou
 
   </p>
 </details>
-
